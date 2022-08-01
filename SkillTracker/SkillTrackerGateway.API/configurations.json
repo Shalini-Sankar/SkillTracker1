@@ -1,0 +1,73 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/skill-tracker/api/Admin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9010
+        }
+      ],
+      "UpstreamPathTemplate": "/admin/profile/search",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/skill-tracker/api/Admin/{criteria}/{criteriaValue}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9010
+        }
+      ],
+      "UpstreamPathTemplate": "/admin/profile/search/{criteria}/{criteriaValue}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/skill-tracker/api/Engineer",
+      "DownstreamScheme": "http",
+      "DownstreamHttpMethod": "POST",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9010
+        }
+      ],
+      "UpstreamPathTemplate": "/engineer/profile/create",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/skill-tracker/api/Engineer/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHttpMethod": "PUT",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9010
+        }
+      ],
+      "UpstreamPathTemplate": "/engineer/profile/update/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:9020"
+  }
+}

@@ -1,0 +1,7 @@
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.csproj.AssemblyReference.cache
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.AssemblyInfoInputs.cache
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.AssemblyInfo.cs
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.csproj.CoreCompileInputs.cache
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.RazorAssemblyInfo.cache
+C:\Project\SkillTracker\SkillTrackerProfile.API\obj\Debug\netcoreapp2.2\SkillTrackerProfile.API.RazorAssemblyInfo.cs
